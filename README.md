@@ -13,7 +13,7 @@
 
 ### 0. new vimer's Guide
 
-If you are new to vim, the following two posts:
+If you are new to vim, the following two posts I recommended: 
 * [English-vim-Guide-Recommended](https://buildmedia.readthedocs.org/media/pdf/vimguide/latest/vimguide.pdf)
 * [my-Chinese-blog-vim-Guide](https://blog.fuujiro.com/2018/03/10/Vim-%E8%93%9D%E8%89%B2%E6%98%9F%E7%90%83%E8%BF%84%E4%BB%8A%E4%B8%BA%E6%AD%A2%E6%9C%80%E5%BC%BA%E5%A4%A7%E7%9A%84%E7%BC%96%E8%BE%91%E5%99%A8%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/)
 
