@@ -1,0 +1,64 @@
+" Description: Optimized for C/C++ development, but useful also for other things.
+" Author: Hu Fu <askfuhu@gmail.com>
+"
+ 
+" set UTF-8 encoding
+set enc=utf-8
+set fenc=utf-8
+set termencoding=utf-8
+
+" disable vi compatibility (emulation of old bugs)
+set nocompatible
+
+" use indentation of previous line
+set autoindent
+
+" use intelligent indentation for C
+set smartindent
+
+" More powerful backspacing
+set backspace=indent,eol,start
+
+" show file in titlebar
+set title
+
+" configure tabwidth and insert spaces instead of tabs
+set expandtab           " expand tabs to spaces
+set tabstop=8           " tab width is 8 spaces
+set shiftwidth=8        " indent also with 8 spaces
+
+" wrap lines at 120 chars. 80 is somewaht antiquated with nowadays displays.
+set textwidth=120
+
+" enable filetype dectection and ft specific plugin/indent
+filetype plugin indent on
+
+" turn syntax highlighting on
+set t_Co=256
+syntax on
+
+" search
+set incsearch
+set ignorecase
+set smartcase
+
+" turn line numbers on
+"set number
+
+" highlight matching braces
+set showmatch
+
+" intelligent comments
+set comments=sl:/*,mb:\ *,elx:\ */
+
+" Enable omni completion.
+autocmd FileType markdown setlocal omnifunc=htmlcomplete#CompleteTags
+autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
+autocmd FileType c setlocal omnifunc=ccomplete#Complete
+if !exists('g:neocomplcache_omni_patterns')
+   let g:neocomplcache_omni_patterns = {}
+endif
+ 
+" Install DoxygenToolkit from http://www.vim.org/scripts/script.php?script_id=987
+let g:DoxygenToolkit_authorName="Hu Fu <askfuhu@gmail.com>"
+ 
