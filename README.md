@@ -99,6 +99,10 @@ so easy to Uninstall.
 rm -rf ~/.vim ~/.vimrc
 ```
 
+### 9. Screenshots
+
+![shot1](
+
 ### 9. How to manage this vimrc?
 All plugins are listed in file vundles.vim with detailed comments, just add plugins as you like.
 
