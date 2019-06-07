@@ -65,8 +65,8 @@ mv ~/.vim ~/.vim.old
 mv ~/.vimrc ~/.vimrc.old
 # get new vim-config
 git clone https://github.com/fuujiro/vim-anchovy.git
+mv vim-anchovy/.vimrc ~/.vimrc
 mv vim-anchovy/ ~/.vim
-mv vim-anchovy/vimrc ~/.vimrc
 ```
 
 #### 7.1 vundle.vim
@@ -76,7 +76,7 @@ If you want to upgrade your vundle.vim in this config,
 1. remove your old vundle
 
 ```bash
-rm -rf ~/.vim/bundle/.Vundle.vim
+rm -rf ~/.vim/bundle/Vundle.vim
 ```
 
 2. Upgrade new vundle from git
