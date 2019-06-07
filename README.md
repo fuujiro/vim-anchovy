@@ -101,9 +101,9 @@ rm -rf ~/.vim ~/.vimrc
 
 ### 9. Screenshots
 
-![shot1](
+![shot1](https://raw.githubusercontent.com/fuujiro/vim-anchovy/master/pics/split-vim.png)
 
-### 9. How to manage this vimrc?
+### 10. How to manage this vimrc?
 All plugins are listed in file vundles.vim with detailed comments, just add plugins as you like.
 
 * `:PluginClean` to clean up unused plugins
@@ -111,7 +111,7 @@ All plugins are listed in file vundles.vim with detailed comments, just add plug
 * `:PluginInstall!` to upgrade all plugins
 Other configurations are also well organized in vimrc.
 
-### 10. Contribution
+### 11. Contribution
 
 If you will to contribute to this open-source program, You can launch a issue at this repo. Thanks.
 
