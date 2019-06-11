@@ -101,7 +101,11 @@ rm -rf ~/.vim ~/.vimrc
 
 ### 9. Screenshots
 
+* without any plugin, only colorsheme ` molokai`
 ![shot1](https://raw.githubusercontent.com/fuujiro/vim-anchovy/master/pics/split-vim.png)
+
+* full configuration with plugins & colorsheme `molokai`
+![shot2](https://raw.githubusercontent.com/fuujiro/vim-anchovy/master/pics/plug-vim.png)
 
 ### 10. How to manage this vimrc?
 All plugins are listed in file vundles.vim with detailed comments, just add plugins as you like.
