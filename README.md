@@ -48,7 +48,7 @@ Such as completions for variable names and function names(neocomplcache), expand
 ```
 ### 5. <leader> Key
 
-`<leader>-key` = `,`
+`<leader>-key` = `\` (not recommended `,` as the `leader` key)
 
 ### 6. Themes
 
