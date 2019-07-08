@@ -1,3 +1,4 @@
+" add plugins
 source ~/.vim/vundles.vim
 
 " encoding dectection
@@ -15,7 +16,7 @@ syntax on
 set background=dark
 colorscheme molokai
 
-" highlight current line
+" highlight current line & column
 au WinLeave * set nocursorline nocursorcolumn
 au WinEnter * set cursorline cursorcolumn
 set cursorline cursorcolumn
