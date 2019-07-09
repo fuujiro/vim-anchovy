@@ -1,7 +1,7 @@
 # vim-anchovy
 🐟Awesome-vim-config for C/C++ users
 
-![1](https://github.com/fuujiro/vim-anchovy/blob/master/pics/Anchovy_logo1.png)
+<img style="display: block; margin: 0 auto;align=middle;" src="https://raw.githubusercontent.com/fuujiro/vim-anchovy/master/pics/Anchovy_logo1.png" alt="" />
 
 > `vim-anchovy` is a minimal & awesome config for C/C++/Markdown users. 
 
