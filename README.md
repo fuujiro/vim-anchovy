@@ -117,7 +117,6 @@ Other configurations are also well organized in vimrc.
 
 ### 11. Contribution
 
-If you will to contribute to this open-source program, You can launch a issue at this repo. Thanks.
-
+If you will to contribute to this open-source program, You can launch a issue or pull request to this repo. Thanks.
 
 
